@@ -10,6 +10,25 @@ class Student
     @grade = grade
   end
 
+  def.count_all_students_in_grade_9
+  end 
+
+
+  def students_below_12th_grade
+  end 
+
+
+  def first_X_students_in_grade_10
+  end 
+
+  def first_X_students_in_grade_10
+  end 
+
+  def all_students_in_grade_X
+  end 
+
+
+
   def self.create_table
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS students (
